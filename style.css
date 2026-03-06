@@ -188,6 +188,8 @@ a {
   color: var(--text-muted);
   border-top: 1px solid var(--border-color);
   padding-top: 1.5rem;
+  justify-content: center;
+  display: flex;
 }
 
 /* .about {
@@ -225,6 +227,10 @@ a {
   }
 
   .links {
+    justify-content: flex-start;
+  }
+
+  .footer {
     justify-content: flex-start;
   }
 }
