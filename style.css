@@ -226,7 +226,7 @@ a {
 
 @media (max-width: 700px) {
   .container {
-    background-color: color-mix(in srgb, var(--bg-color) 75%, transparent);
+    background-color: color-mix(in srgb, var(--bg-color) 65%, transparent);
     box-shadow: none;
   }
 }
