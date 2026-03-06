@@ -224,9 +224,9 @@ a {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 700px) {
   .container {
-    background: transparent;
+    background-color: color-mix(in srgb, var(--bg-color) 75%, transparent);
     box-shadow: none;
   }
 }
