@@ -26,7 +26,8 @@
   }
 }
 
-html, body {
+html,
+body {
   scrollbar-width: none; /* firefox */
   -ms-overflow-style: none; /* old edge */
 }
@@ -220,5 +221,12 @@ a {
     flex-direction: row;
     text-align: left;
     align-items: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    background: transparent;
+    box-shadow: none;
   }
 }
