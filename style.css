@@ -126,6 +126,7 @@ a {
 }
 
 .links {
+  justify-content: center;
   display: flex;
   gap: 1.2rem;
 
@@ -221,6 +222,10 @@ a {
     flex-direction: row;
     text-align: left;
     align-items: center;
+  }
+
+  .links {
+    justify-content: flex-start;
   }
 }
 
